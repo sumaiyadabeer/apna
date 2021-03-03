@@ -41,7 +41,7 @@ source code: http://lxr.free-electrons.com/source/net/ipv4/tcp_probe.c?v=3.12
 10: rcv_wnd (3.12 and later)
 """
 def parse_file(f):
-    num_fields = 10
+    num_fields = 11
     linux_ver = os.uname()[2].split('.')[:2] # example '3.13.0-24-generic' 
     ver_1, ver_2 = [int(ver_i) for ver_i in linux_ver]
     if ver_1 == 3 and ver_2 >= 12:
@@ -53,7 +53,7 @@ def parse_file(f):
     for l in open(f).xreadlines():
         fields = l.strip().split(' ')
         if len(fields) != num_fields:
-            print "%d problem with file %d" , fields[0],num_fields
+	    #print "%d problem with file %d" , fields[0],num_fields
             break
         if not args.sport:
             if fields[2].split(':')[1] != args.port:
