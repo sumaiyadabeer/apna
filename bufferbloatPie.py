@@ -171,7 +171,7 @@ def start_iperf(net):
     # Note that unlike the CLI, where mininet automatically translates
     # nodes names (like h1) to IP addresses, here it's up to you.
     h1 = net.getNodeByName('h1')
-    client = h1.popen("iperf -c %s " % h2.IP(), shell=True)
+    client = h1.popen("iperf -c %s  -P 10" % h2.IP(), shell=True)
 
 def start_webserver(net):
     h2 = net.getNodeByName('h2')
