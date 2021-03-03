@@ -92,10 +92,8 @@ class BBTopo(Topo):
 # tcp_probe is a kernel module which records cwnd over time. In linux >= 4.16
 # it has been replaced by the tcp:tcp_probe kernel tracepoint.
 def start_tcpprobe(outfile="cwnd.txt"):
-    os.system("cd /sys/kernel/debug/tracing; echo 1 > events/tcp/enable;")
-    Popen("cat /sys/kernel/debug/tracing/trace > %s/%s" % (args.dir, outfile),
-          shell=True)
-
+    os.system("rmmod tcp_probe; modprobe tcp_probe full=1;")
+    Popen("cat /proc/net/tcpprobe > %s/%s" % (args.dir, outfile),shell=True)
 def stop_tcpprobe():
     Popen("killall -9 cat", shell=True).wait()
 
@@ -113,11 +111,11 @@ def start_iperf(net):
     # that the TCP flow is not receiver window limited.  If it is,
     # there is a chance that the router buffer may not get filled up.
     server = h2.popen("iperf -s -w 16m")
-    udpServer= h2.popen("iperf -s -u")
+    udpServer= h2.popen("iperf -s -u > {}/iperf_udp_server.txt".format(args.dir))
     # TODO: Start the iperf client on h1.  Ensure that you create a
     # long lived TCP flow. You may need to redirect iperf's stdout to avoid blocking.
     client = h1.popen("iperf -c {} -t {} > {}/iperf_client.txt".format(h2.IP(), args.time, args.dir), shell=True)
-    udp_client = h1.popen("iperf -c {} -t {} -u -b 1000M > {}/iperf_client.txt".format(h2.IP(), args.time, args.dir), shell=True)
+    udp_client = h1.popen("iperf -c {} -t {} -u -b 20M > {}/iperf_udp_client.txt".format(h2.IP(), args.time, args.dir), shell=True)
 
 def start_webserver(net):
     h1 = net.get('h1')
