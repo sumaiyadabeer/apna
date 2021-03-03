@@ -53,6 +53,7 @@ def parse_file(f):
     for l in open(f).xreadlines():
         fields = l.strip().split(' ')
         if len(fields) != num_fields:
+            print "%d problem with file %d" , fields[0],num_fields
             break
         if not args.sport:
             if fields[2].split(':')[1] != args.port:
