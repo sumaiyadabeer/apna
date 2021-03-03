@@ -2,23 +2,25 @@
 Client connecting to 10.0.0.2, TCP port 5001
 TCP window size: 85.3 KByte (default)
 ------------------------------------------------------------
-[ 17] local 10.0.0.1 port 50450 connected with 10.0.0.2 port 5001
-[ 15] local 10.0.0.1 port 50446 connected with 10.0.0.2 port 5001
-[ 20] local 10.0.0.1 port 50456 connected with 10.0.0.2 port 5001
-[ 16] local 10.0.0.1 port 50448 connected with 10.0.0.2 port 5001
-[ 19] local 10.0.0.1 port 50454 connected with 10.0.0.2 port 5001
-[ 14] local 10.0.0.1 port 50444 connected with 10.0.0.2 port 5001
-[ 13] local 10.0.0.1 port 50442 connected with 10.0.0.2 port 5001
-[ 21] local 10.0.0.1 port 50458 connected with 10.0.0.2 port 5001
-[ 22] local 10.0.0.1 port 50460 connected with 10.0.0.2 port 5001
-[ 18] local 10.0.0.1 port 50452 connected with 10.0.0.2 port 5001
+[ 22] local 10.0.0.1 port 50538 connected with 10.0.0.2 port 5001
+[ 20] local 10.0.0.1 port 50534 connected with 10.0.0.2 port 5001
+[ 14] local 10.0.0.1 port 50522 connected with 10.0.0.2 port 5001
+[ 13] local 10.0.0.1 port 50520 connected with 10.0.0.2 port 5001
+[ 21] local 10.0.0.1 port 50536 connected with 10.0.0.2 port 5001
+[ 17] local 10.0.0.1 port 50528 connected with 10.0.0.2 port 5001
+[ 16] local 10.0.0.1 port 50526 connected with 10.0.0.2 port 5001
+[ 18] local 10.0.0.1 port 50530 connected with 10.0.0.2 port 5001
+[ 15] local 10.0.0.1 port 50524 connected with 10.0.0.2 port 5001
+[ 19] local 10.0.0.1 port 50532 connected with 10.0.0.2 port 5001
 [ ID] Interval       Transfer     Bandwidth
-[ 18]  0.0-10.6 sec  1.50 MBytes  1.18 Mbits/sec
-[ 20]  0.0-11.0 sec  1.75 MBytes  1.34 Mbits/sec
-[ 17]  0.0-11.1 sec  1.50 MBytes  1.13 Mbits/sec
-[ 22]  0.0-11.3 sec  1.12 MBytes   835 Kbits/sec
-[ 16]  0.0-11.6 sec  1.38 MBytes   997 Kbits/sec
-[ 14]  0.0-11.6 sec  2.00 MBytes  1.44 Mbits/sec
-[ 19]  0.0-11.6 sec  1.50 MBytes  1.08 Mbits/sec
-[ 21]  0.0-11.9 sec  1.50 MBytes  1.06 Mbits/sec
-[ 15]  0.0-12.5 sec  1.25 MBytes   837 Kbits/sec
+[ 13]  0.0-10.7 sec   896 KBytes   683 Kbits/sec
+[ 19]  0.0-11.3 sec  1.50 MBytes  1.12 Mbits/sec
+[ 21]  0.0-11.4 sec  1.88 MBytes  1.38 Mbits/sec
+[ 17]  0.0-11.5 sec  1.62 MBytes  1.19 Mbits/sec
+[ 15]  0.0-11.5 sec  1.12 MBytes   821 Kbits/sec
+[ 16]  0.0-11.5 sec  1.38 MBytes   999 Kbits/sec
+[ 22]  0.0-12.3 sec  1.62 MBytes  1.11 Mbits/sec
+[ 20]  0.0-12.4 sec  1.88 MBytes  1.26 Mbits/sec
+[ 18]  0.0-12.6 sec  1.62 MBytes  1.08 Mbits/sec
+[ 22]  0.0-993.6 sec  1.17 MBytes  9.90 Kbits/sec
+[SUM]  0.0-993.6 sec  13.5 MBytes   114 Kbits/sec
