@@ -135,7 +135,7 @@ class BBTopo(Topo):
         # Hint: PIE inteface sits on the switch side, so which cls you need to change?
 
         self.addLink(h1, s0, 1, 1, bw=args.bw_host)
-        self.addLink(s0, h2, 2, 2, bw=args.bw_net, delay=args.delay, loss=1)
+        self.addLink(s0, h2, 2, 2, bw=args.bw_net, delay=args.delay, loss=2)
         return
 
 # Simple wrappers around monitoring utilities.  You are welcome to
