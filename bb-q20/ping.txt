@@ -1,40 +1,36 @@
 PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
-64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=50.0 ms
-64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=26.4 ms
-64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=27.0 ms
-64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=27.4 ms
-64 bytes from 10.0.0.2: icmp_seq=11 ttl=64 time=27.6 ms
-64 bytes from 10.0.0.2: icmp_seq=12 ttl=64 time=26.6 ms
-64 bytes from 10.0.0.2: icmp_seq=13 ttl=64 time=27.1 ms
-64 bytes from 10.0.0.2: icmp_seq=14 ttl=64 time=26.4 ms
-64 bytes from 10.0.0.2: icmp_seq=15 ttl=64 time=26.4 ms
-64 bytes from 10.0.0.2: icmp_seq=16 ttl=64 time=26.2 ms
-64 bytes from 10.0.0.2: icmp_seq=20 ttl=64 time=27.4 ms
-64 bytes from 10.0.0.2: icmp_seq=23 ttl=64 time=27.1 ms
-64 bytes from 10.0.0.2: icmp_seq=24 ttl=64 time=27.4 ms
-64 bytes from 10.0.0.2: icmp_seq=29 ttl=64 time=27.3 ms
-64 bytes from 10.0.0.2: icmp_seq=36 ttl=64 time=27.2 ms
-64 bytes from 10.0.0.2: icmp_seq=37 ttl=64 time=25.5 ms
-64 bytes from 10.0.0.2: icmp_seq=38 ttl=64 time=35.5 ms
-64 bytes from 10.0.0.2: icmp_seq=51 ttl=64 time=27.2 ms
-64 bytes from 10.0.0.2: icmp_seq=52 ttl=64 time=27.1 ms
-64 bytes from 10.0.0.2: icmp_seq=54 ttl=64 time=27.4 ms
-64 bytes from 10.0.0.2: icmp_seq=56 ttl=64 time=27.3 ms
-64 bytes from 10.0.0.2: icmp_seq=60 ttl=64 time=32.0 ms
-64 bytes from 10.0.0.2: icmp_seq=64 ttl=64 time=29.3 ms
-64 bytes from 10.0.0.2: icmp_seq=65 ttl=64 time=31.0 ms
-64 bytes from 10.0.0.2: icmp_seq=67 ttl=64 time=30.5 ms
-64 bytes from 10.0.0.2: icmp_seq=69 ttl=64 time=28.8 ms
-64 bytes from 10.0.0.2: icmp_seq=73 ttl=64 time=29.4 ms
-64 bytes from 10.0.0.2: icmp_seq=75 ttl=64 time=28.8 ms
-64 bytes from 10.0.0.2: icmp_seq=77 ttl=64 time=30.0 ms
-64 bytes from 10.0.0.2: icmp_seq=80 ttl=64 time=27.8 ms
-64 bytes from 10.0.0.2: icmp_seq=81 ttl=64 time=30.2 ms
-64 bytes from 10.0.0.2: icmp_seq=90 ttl=64 time=27.5 ms
-64 bytes from 10.0.0.2: icmp_seq=91 ttl=64 time=29.1 ms
-64 bytes from 10.0.0.2: icmp_seq=94 ttl=64 time=27.1 ms
-64 bytes from 10.0.0.2: icmp_seq=95 ttl=64 time=27.1 ms
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=49.9 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=27.8 ms
+64 bytes from 10.0.0.2: icmp_seq=6 ttl=64 time=27.5 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=26.1 ms
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=27.5 ms
+64 bytes from 10.0.0.2: icmp_seq=11 ttl=64 time=29.7 ms
+64 bytes from 10.0.0.2: icmp_seq=16 ttl=64 time=27.4 ms
+64 bytes from 10.0.0.2: icmp_seq=17 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.2: icmp_seq=18 ttl=64 time=27.1 ms
+64 bytes from 10.0.0.2: icmp_seq=21 ttl=64 time=27.1 ms
+64 bytes from 10.0.0.2: icmp_seq=23 ttl=64 time=26.3 ms
+64 bytes from 10.0.0.2: icmp_seq=32 ttl=64 time=27.6 ms
+64 bytes from 10.0.0.2: icmp_seq=39 ttl=64 time=27.3 ms
+64 bytes from 10.0.0.2: icmp_seq=41 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.2: icmp_seq=57 ttl=64 time=28.2 ms
+64 bytes from 10.0.0.2: icmp_seq=60 ttl=64 time=26.3 ms
+64 bytes from 10.0.0.2: icmp_seq=63 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.2: icmp_seq=67 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.2: icmp_seq=68 ttl=64 time=28.4 ms
+64 bytes from 10.0.0.2: icmp_seq=69 ttl=64 time=27.3 ms
+64 bytes from 10.0.0.2: icmp_seq=71 ttl=64 time=26.2 ms
+64 bytes from 10.0.0.2: icmp_seq=72 ttl=64 time=27.5 ms
+64 bytes from 10.0.0.2: icmp_seq=75 ttl=64 time=27.3 ms
+64 bytes from 10.0.0.2: icmp_seq=76 ttl=64 time=54.1 ms
+64 bytes from 10.0.0.2: icmp_seq=79 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.2: icmp_seq=84 ttl=64 time=27.2 ms
+64 bytes from 10.0.0.2: icmp_seq=85 ttl=64 time=27.1 ms
+64 bytes from 10.0.0.2: icmp_seq=89 ttl=64 time=27.0 ms
+64 bytes from 10.0.0.2: icmp_seq=93 ttl=64 time=27.1 ms
+64 bytes from 10.0.0.2: icmp_seq=95 ttl=64 time=27.3 ms
 
 --- 10.0.0.2 ping statistics ---
-95 packets transmitted, 35 received, 63% packet loss, time 9914ms
-rtt min/avg/max/mdev = 25.580/28.800/50.097/4.137 ms
+95 packets transmitted, 31 received, 67% packet loss, time 9951ms
+rtt min/avg/max/mdev = 26.170/28.938/54.157/6.124 ms

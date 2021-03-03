@@ -94,6 +94,7 @@ class BBTopo(Topo):
 def start_tcpprobe(outfile="cwnd.txt"):
     os.system("rmmod tcp_probe; modprobe tcp_probe full=1;")
     Popen("cat /proc/net/tcpprobe > %s/%s" % (args.dir, outfile),shell=True)
+
 def stop_tcpprobe():
     Popen("killall -9 cat", shell=True).wait()
 
