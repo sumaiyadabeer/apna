@@ -83,7 +83,7 @@ class BBTopo(Topo):
 
         # TODO: Add links with appropriate characteristics
         link = {"delay": "{}ms".format(args.delay), "max_queue_size": args.maxq}
-        loss_link = {"delay": "{}ms".format(args.delay), "max_queue_size": args.maxq, "loss":2}
+        loss_link = {"delay": "{}ms".format(args.delay), "max_queue_size": args.maxq, "loss":1}
         self.addLink(hosts[0], switch, bw=args.bw_host, **link)
         self.addLink(hosts[1], switch, bw=args.bw_net, **loss_link)
 
