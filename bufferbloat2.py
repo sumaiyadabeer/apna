@@ -94,8 +94,8 @@ class BBTopo(Topo):
 # tcp_probe is a kernel module which records cwnd over time. In linux >= 4.16
 # it has been replaced by the tcp:tcp_probe kernel tracepoint.
 def start_tcpprobe(outfile="cwnd.txt"):
-    os.system("cd /sys/kernel/debug/tracing; echo 1 > events/tcp/enable;")
-    Popen("cat /sys/kernel/debug/tracing/trace > %s/%s" % (args.dir, outfile),
+    os.system("rmmod tcp_probe; modprobe tcp_probe full=1;")
+    Popen("cat /proc/net/tcpprobe > %s/%s" % (args.dir, outfile),
           shell=True)
 
 def stop_tcpprobe():
